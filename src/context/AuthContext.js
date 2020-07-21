@@ -30,7 +30,6 @@ const signup = (dispatch) => async ({ email, password }) => {
             payload: 'Email already in use'
         });
     }
-
 };
 
 const signin = (dispatch) => {
